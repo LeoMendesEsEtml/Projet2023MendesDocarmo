@@ -4,14 +4,14 @@
  -- Fichier : Fonctions.h
  -- Versions : 1.0
  -- Date : 30.05.23
- -- Autheur : Léo Mendes , Antonio DoCarmo
- -- Description : programme principal utilisé pour projet de prog 2023
+ -- Autheur : LÃ©o Mendes , Antonio DoCarmo
+ -- Description : programme principal utilisÃ© pour projet de prog 2023
  -------------------------------------------------
 */
 
 //--- librairie standart ---//
-#include <stdio.h>                  // entrée - sortie
-#include <stdlib.h>                 // pour les fonctions systèmes
+#include <stdio.h>                  // entrÃ©e - sortie
+#include <stdlib.h>                 // pour les fonctions systÃ¨mes
 #include <math.h>
 
 //-- librairie personnelle --//                                                                                                                                                                                                                                                                                                                  
@@ -22,11 +22,11 @@ int compteurConversionBinaire = 0;
 int compteurTrigonometrie = 0;
 
 //-- programme princiaple --// 
-void main()
+int  main()
 {
 	int choixUtilisateur;
 
-	//Récupération du compteur dans fichier logs
+	//RÃ©cupÃ©ration du compteur dans fichier logs
 	recuperationCompteur();
 
 	while (1) {
